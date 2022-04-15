@@ -1,0 +1,46 @@
+import turtle 
+
+def drawFirstNameInitial():
+    FirstNameTurtle = turtle.Turtle()
+    FirstNameTurtle.shape("blank")
+    FirstNameTurtle.color("red")
+    FirstNameTurtle.pensize(10)
+    FirstNameTurtle.penup()
+    FirstNameTurtle.goto(-100,0)
+    FirstNameTurtle.pendown()
+    FirstNameTurtle.right(90)
+    FirstNameTurtle.forward(200)
+    FirstNameTurtle.left(180)
+    FirstNameTurtle.forward(100)
+    FirstNameTurtle.right(90)
+    FirstNameTurtle.forward(100)
+    FirstNameTurtle.left(90)
+    FirstNameTurtle.forward(100)
+    FirstNameTurtle.left(180)
+    FirstNameTurtle.forward(200)
+
+def drawLastNameInitial():
+    LastNameTurtle = turtle.Turtle()
+    LastNameTurtle.shape("blank")
+    LastNameTurtle.color("red")
+    LastNameTurtle.pensize(10)
+    LastNameTurtle.penup()
+    LastNameTurtle.goto(150,0)
+    LastNameTurtle.pendown()
+    LastNameTurtle.backward(100)
+    LastNameTurtle.right(90)
+    LastNameTurtle.forward(200)
+    LastNameTurtle.left(90)
+    LastNameTurtle.forward(100)
+    LastNameTurtle.left(90)
+    LastNameTurtle.forward(100)
+    LastNameTurtle.left(90)
+    LastNameTurtle.forward(65)
+
+
+
+wn = turtle.Screen()
+wn.bgcolor("green")
+drawFirstNameInitial()
+drawLastNameInitial()
+wn.exitonclick()
